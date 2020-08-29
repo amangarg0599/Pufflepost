@@ -8,6 +8,5 @@ imageshadow: true
 ---
 
 This is a completely static lighweight blog made with the help of jekyll and Github pages.
-
 This allows it to be faster and more responsive, with the goodness of markdown.
 
