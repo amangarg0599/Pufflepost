@@ -1,10 +1,10 @@
 # Site
 name: 'Pufflepost'
 title: "Pufflepost"
-description: "A website with blog posts and pages" # used by search engines
+description: "Pufflepost" # used by search engines
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /jekyll-theme-memoirs
+baseurl: ""
 google_analytics: UA-119927478-1
 url: "https://amangarg0599.github.io"
 url: "https://www.pufflepost.com"
@@ -17,14 +17,14 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  Aman:
+    name: Aman
+    display_name: Aman Garg
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
+    email: amangarg599@gmail.com
     web: https://www.wowthemes.net/donate/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    twitter: https://twitter.com/amangarg0599
+    description: "Author of this Blog, Hope You like my work !."
  
 # Plugins
 plugins:
@@ -52,7 +52,7 @@ highlighter: none
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
-      disable : true
+      disable : false
 
 
 
@@ -65,7 +65,7 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
-authorbox: "disabled"
+authorbox: "enabled"
 
 # Sass
 sass:
