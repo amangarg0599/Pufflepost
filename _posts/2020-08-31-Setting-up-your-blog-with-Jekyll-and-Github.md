@@ -73,7 +73,7 @@ gem install bundler
 bundle install
 bundle exec jekyll serve --incremental
 ```
-![Commands Demo]({{ site.baseurl}}/assets/images/cmd1.webp)
+![Commands Demo]({{ site.baseurl}}/assets/images/2/cmd1.webp)
 
 ![Commands Demo]({{ site.baseurl}}/assets/images/2/cmd2.webp)
 
