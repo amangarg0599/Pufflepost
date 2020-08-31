@@ -77,7 +77,7 @@ bundle exec jekyll serve --incremental
 
 
 this will run the site locally and we can view the site using the link that will be provided by the last command. This will allow us to view our content locally so that if we want to do some modifications we can do easily.
-![Local site screenshot]({{ site.baseurl}}/assets/images/site.webp)
+![Local site screenshot]({{ site.baseurl}}/assets/images/2/site.webp)
  Now after that we have to publish our code on GitHub to do that simply push that folder to a GitHub repo. To do that we will use git commands which we can learn from [here](https://www.datacamp.com/community/tutorials/git-push-pull) on how to publish our folder to a git repo.
 
 **_post is the directory to store all the posts in the markdown format(an easy way to write web articles)**
