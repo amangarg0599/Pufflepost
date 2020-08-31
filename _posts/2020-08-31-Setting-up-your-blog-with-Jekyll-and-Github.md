@@ -12,11 +12,8 @@ image: assets/images/githubjekyll.webp
 There are many reasons that may drive you away from dynamic blogs like WordPress – 
 
 - Cost is high
-
 - Speed is slower 
-
 - Less control over the platform
-
 - The free version is very restricted and does not even allows your own domain name
 
 
@@ -28,9 +25,7 @@ What we need ?
 
 - A GitHub account 
 
-  
-
-   <!--Custom domain ( if we want give our blog a professional look, else it would look something like “yourusername.github.io” )-->
+  <!--Custom domain ( if we want give our blog a professional look, else it would look something like “yourusername.github.io” )-->
 
 
 Now first of all we need to setup the environment for Jekyll, To do that we have to setup a full Ruby environment. 
@@ -89,3 +84,6 @@ this will run the site locally and we can view the site using the link that will
 
 **Note** - the name of your repo should be  in the format *yourusername.github.io* this will allow to access your blog directly through this link.
 
+By this simple tutorial we can have our own simple up and running blog in minutes with no charge, and the best thing is that we will have the flexibility and speed of a static site and we have complete control over every element of the website that we may need to modify.
+
+For in-depth we can refer the [jekyll docs](<https://jekyllrb.com/docs/>) to see how jekyll works and how we can even setup jekyll without using any template the way we like.
