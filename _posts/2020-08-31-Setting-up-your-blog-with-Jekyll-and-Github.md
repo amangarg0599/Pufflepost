@@ -47,7 +47,7 @@ Verify ruby version with command from command prompt.
 ruby -v
 ```
 
-![ruby test]({{ site.baseurl}}/assets/images/ruby.webp)
+![ruby test]({{ site.baseurl}}/assets/images/2/ruby.webp)
 
 Since our environment is setup next step is to download theme/ Template for our Blog. There are many websites to download themes from, the one recommended by the official Jekyll docs are - 
 
@@ -62,7 +62,7 @@ Now head to any of the site you want and download the theme of your choice. For 
 
 Now click download button as highlighted above and extract the code after downloading, it will look like as shown in screenshot.
 
-![Directory]({{ site.baseurl}}/assets/images/2/extract.webp)
+![Directory]({{ site.baseurl}}/assets/images/2/extract.png)
 
 Now open a command prompt here by typing cmd in the address bar.
 
@@ -75,15 +75,17 @@ bundle exec jekyll serve --incremental
 ```
 ![Commands Demo]({{ site.baseurl}}/assets/images/cmd1.webp)
 
-![Commands Demo]({{ site.baseurl}}/assets/images/cmd1.webp)
+![Commands Demo]({{ site.baseurl}}/assets/images/2/cmd2.webp)
 
-![Commands Demo]({{ site.baseurl}}/assets/images/cmd1.webp)
+![Commands Demo]({{ site.baseurl}}/assets/images/2/cmd3.webp)
 
 
 
 this will run the site locally and we can view the site using the link that will be provided by the last command. This will allow us to view our content locally so that if we want to do some modifications we can do easily.
 ![Local site screenshot]({{ site.baseurl}}/assets/images/site.webp)
  Now after that we have to publish our code on GitHub to do that simply push that folder to a GitHub repo. To do that we will use git commands which we can learn from [here](https://www.datacamp.com/community/tutorials/git-push-pull) on how to publish our folder to a git repo.
+
+**_post is the directory to store all the posts in the markdown format(an easy way to write web articles)**
 
 **Note** - the name of your repo should be  in the format *yourusername.github.io* this will allow to access your blog directly through this link.
 
