@@ -3,7 +3,7 @@ layout: post
 title:  "Integration Of AWS with Terraform"
 author: Aman
 categories: [ AWS, terraform ]
-image: assets/images/terraformaws.png
+image: assets/images/terraformaws.webp
 
 ---
 
@@ -20,15 +20,15 @@ Now before proceeding we have we have to make sure that these software are insta
 
 To set the path just go to System Properties -> Advanced -> Environment Variables.. -> In system Variables find `PATH`  and click on Edit. 
 
-![Environment Variable]({{ site.baseurl}}/assets/images/Environment variable.png)
+![Environment Variable]({{ site.baseurl}}/assets/images/Environment variable.webp)
 
 Then Add the path for terraform CLI as shown-
 
-![edit path]({{ site.baseurl }}\assets\images\edit path.jpg)
+![edit path]({{ site.baseurl }}\assets\images\edit path.webp)
 
 Now before starting we have to understand a basic thing that in real life we may work in environment where we don't want to expose our login credentials, so we will use terraform using the profile  that we will create from AWS CLI that can be seen in the screenshot, either we can use default profile for CLI or create our own profile. 
 
-![CLI command to create profile]({{ site.baseurl }}/assets/images/profilesetup.png)
+![CLI command to create profile]({{ site.baseurl }}/assets/images/profilesetup.webp)
 Now we have created the method to authenticate we will create terraform workspace. A workspace is nothing but folder where we store our code, for better management of code its preferable to put code in a folder. Now we will create code to launch the instance in AWS 
 
 `Note - The extension to store terraform file is my_file.tf`` 
@@ -67,15 +67,15 @@ These all are required components specified by [Terraform docs](https://www.terr
 
 Save this file as myfile.tf in the desired workspace and open the command prompt to the location and write command `terraform init` this command is so smart that it will check the .tf file and download the required modules to run the file.
 
-![]({{ site.baseurl }}\assets\images\terraform init.png)
-![]({{ site.baseurl }}\assets\images\terraform apply.png)
+![]({{ site.baseurl }}\assets\images\terraform init.webp)
+![]({{ site.baseurl }}\assets\images\terraform apply.webp)
 
 After that we will write `terraform apply` in the same command prompt in location where we have initialized the workspace and type `yes` when asked. The instance will launched in AWS as seen in dashboard 
 
 
 
-![AWS instance]({{ site.baseurl }}\assets\images\terraform launch.png)
-![AWS instance]({{ site.baseurl }}\assets\images\instance.png)
+![AWS instance]({{ site.baseurl }}\assets\images\terraform launch.webp)
+![AWS instance]({{ site.baseurl }}\assets\images\instance.webp)
 
 
 
