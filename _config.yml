@@ -2,8 +2,8 @@
 name: 'Pufflepost'
 title: "Pufflepost"
 description: "Pufflepost" # used by search engines
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo.webp'
+favicon: 'assets/images/logo.webp'
 baseurl: ""
 google_analytics: UA-119927478-1
 url: "https://www.pufflepost.com"
@@ -19,7 +19,7 @@ authors:
   Aman:
     name: Aman
     display_name: Aman Garg
-    avatar: assets/images/avatar2.jpg
+    avatar: assets/images/avatar.webp
     email: amangarg599@gmail.com
     web: https://instagram/amangarg._
     twitter: https://twitter.com/amangarg0599
