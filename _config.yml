@@ -23,6 +23,7 @@ authors:
     email: amangarg599@gmail.com
     web: https://instagram/amangarg._
     twitter: https://twitter.com/amangarg0599
+    facebook: http://www.facebook.com/amangarg0599
     description: "Author of this Blog, Definitely not a cyborg."
  
 # Plugins
@@ -47,7 +48,7 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-# highlighter: none
+# highlighter: rogue
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
@@ -56,12 +57,12 @@ kramdown:
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "enabled"
+adsense: "disabled"
 adsense-data-ad-client: "ca-pub-1722804840732560"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
+lazyimages: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"

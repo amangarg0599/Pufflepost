@@ -4,7 +4,7 @@ title:  "Integration Of AWS with Terraform"
 author: Aman
 categories: [ AWS, terraform ]
 image: assets/images/terraformaws.webp
-
+comments: false
 ---
 
 Amazon web services  (AWS) is from  Amazon and is a major player in the cloud industry. Today they have many major clients that trusts AWS as their cloud provider, some of the services such as EC2 , S3 are very famous.
