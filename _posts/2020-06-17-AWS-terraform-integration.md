@@ -2,7 +2,7 @@
 layout: post
 title:  "Integration Of AWS with Terraform"
 author: Aman
-categories: [ AWS, terraform ]
+categories: [ Tutorial ]
 image: assets/images/terraformaws.webp
 comments: false
 ---
