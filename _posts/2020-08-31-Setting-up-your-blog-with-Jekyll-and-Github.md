@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up your blog with Jekyll and Github"
 author: Aman
-categories: [ Github, jekyll ]
+categories: [ Tutorial]
 image: assets/images/githubjekyll.webp
 comments: false
 ---
