@@ -3,7 +3,7 @@ layout: page
 title: Pufflepost, a minimalist modern blog for the modern times
 permalink: /about
 comments: false
-image: assets/images/screenshot.jpg
+image: assets/images/screenshot.webp
 imageshadow: true
 ---
 
