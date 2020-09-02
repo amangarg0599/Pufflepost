@@ -1,9 +1,9 @@
 # Site
 name: 'Pufflepost'
 title: "Pufflepost"
-description: "Pufflepost" # used by search engines
-logo: 'assets/images/logo.webp'
-favicon: 'assets/images/logo.webp'
+description: "Pufflepost is a Minimal blog updated constantly wirh the best content" # used by search engines
+logo: 'assets/images/puff.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: UA-119927478-1
 url: "https://www.pufflepost.com"
