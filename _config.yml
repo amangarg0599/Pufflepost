@@ -1,7 +1,7 @@
 # Site
 name: 'Pufflepost'
 title: "Pufflepost"
-description: "Pufflepost is a Minimal blog updated constantly wirh the best content" # used by search engines
+description: "Pufflepost is a Minimal blog updated constantly with the best content" # used by search engines
 logo: 'assets/images/puff.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
@@ -14,6 +14,7 @@ include: ["_pages"]
 permalink: /:title/
 
 
+
 # Authors
 authors:
   Aman:
@@ -21,11 +22,13 @@ authors:
     display_name: Aman Garg
     avatar: assets/images/avatar.webp
     email: amangarg599@gmail.com
-    web: https://instagram/amangarg._
-    twitter: https://twitter.com/amangarg0599
-    facebook: http://www.facebook.com/amangarg0599
+    web: https://instagram/amangarg._/
+    twitter: https://twitter.com/amangarg0599/
+    facebook: http://www.facebook.com/amangarg0599/
     description: "Author of this Blog, Definitely not a cyborg."
  
+
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -62,7 +65,7 @@ adsense-data-ad-client: "ca-pub-1722804840732560"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
