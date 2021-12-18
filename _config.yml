@@ -7,7 +7,7 @@ favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: UA-119927478-1
 url: "https://www.pufflepost.com"
-url: "https://pufflepost.com"
+#url: "https://pufflepost.com"
 disqus: 'pufflepost'
 email: 'pufflepost@gmail.com'
 include: ["_pages"]
