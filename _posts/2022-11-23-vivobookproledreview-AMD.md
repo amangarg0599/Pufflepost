@@ -4,7 +4,8 @@ title:  "Asus Vivobook Pro Oled 14 M3400 review"
 author: Aman
 categories: [Review]
 tags: [review,vivobook,laptop,asus]
-image: https://dlcdnwebimgs.asus.com/files/media/e8833b25-ac84-41f7-bf9f-2d81a2a1f9fb/images/colors_1.jpg	
+image: https://dlcdnwebimgs.asus.com/files/media/e8833b25-ac84-41f7-bf9f-2d81a2a1f9fb/images/colors_1.jpg
+toc: true	
 ---
 Thin and light laptops focus on productivity rather than raw gaming performance.  it includes browsing chrome, using office, photoshop, and light video editing. Today we will be reviewing Vivobook Pro Oled 14 AMD ryzen variant. It has decent performance and good specs according to the cost.
 
