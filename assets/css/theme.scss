@@ -2,9 +2,9 @@
 
 ---
 
-$brown: #B59F62;
-$teal: #40FFDC;
-$black: #111;
+$brown: #457B9D;
+$teal: #E63946;
+$black: #1D3557;
 $primary: $teal;
 $dark:    $black;
 $enable-rounded: false;
@@ -22,7 +22,7 @@ body, input, button, select, optgroup, textarea {
 }
 body {
     line-height:1.7;
-    background: #f4f4f4;
+    background: #fff;
 }
 a {
     color: darken($primary, 24%);

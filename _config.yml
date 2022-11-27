@@ -2,7 +2,7 @@
 name: 'Pufflepost'
 title: "Pufflepost"
 description: "Pufflepost is a blog/news updated constantly with the best content" # used by search engines
-logo: 'assets/images/Pufflepost_black_logo.png'
+logo: 'assets/images/Pufflepost Logo Wide.svg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: G-JD1B356GRY

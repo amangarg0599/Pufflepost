@@ -5,7 +5,8 @@ author: Aman
 categories: [Review]
 tags: [review,vivobook,laptop,asus]
 image: https://dlcdnwebimgs.asus.com/files/media/e8833b25-ac84-41f7-bf9f-2d81a2a1f9fb/images/colors_1.jpg
-toc: true	
+toc: true
+rating: 4.5
 ---
 Thin and light laptops focus on productivity rather than raw gaming performance.  it includes browsing chrome, using office, photoshop, and light video editing. Today we will be reviewing Vivobook Pro Oled 14 AMD ryzen variant. It has decent performance and good specs according to the cost.
 
@@ -19,10 +20,10 @@ The most impressive aspect is definitely the display. The 2.4K OLED display is s
 ## Performance.
 There are several variants available for this laptop ( particularly the M3400 series).
 
-| Variant                           | Price            |
-| --------------------------------- | ---------------- |
-| Ryzen 5600H, 8 Gb Ram, 512GB SSD  | ₹56,990- ₹59,990 |
-| Ryzen 5800H, 16 Gb Ram, 512GB SSD | ₹59,990- ₹65,990 |
+| Variant                                    | Price            |
+| ------------------------------------------ | ---------------- |
+| Ryzen 5600H, 8 Gb Ram, 512GB SSD           | ₹56,990- ₹59,990 |
+| Ryzen 5800H, 16 Gb Ram, 512GB SSD          | ₹59,990- ₹65,990 |
 
 The price of the laptop is variable but if you get the laptop in under a lower price it will be a stunning deal. from the two variants, you should definitely go for the higher one, as it will be more future-proof.
 
