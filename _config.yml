@@ -1,7 +1,7 @@
 # Site
 name: 'Pufflepost'
 title: "Pufflepost"
-description: "Pufflepost is a blog/news updated constantly with the best content" # used by search engines
+description: "A modern blog!" # used by search engines
 logo: 'assets/images/Pufflepost Logo Wide.svg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
@@ -60,7 +60,7 @@ kramdown:
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
+adsense: "enabled"
 adsense-data-ad-client: "ca-pub-1722804840732560"
 adsense-data-ad-slot: "7438894989"
 
