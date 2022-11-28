@@ -1,18 +1,16 @@
 # Site
 name: 'Pufflepost'
 title: "Pufflepost"
-description: "Pufflepost is a Minimal blog updated constantly with the best content" # used by search engines
-logo: 'assets/images/Pufflepost_black_logo.png'
+description: "Pufflepost is a blog/news updated constantly with the best content" # used by search engines
+logo: 'assets/images/Pufflepost Logo Wide.svg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: G-JD1B356GRY
-url: "https://www.pufflepost.com"
 url: "https://pufflepost.com"
 disqus: 'pufflepost'
 email: 'pufflepost@gmail.com'
 include: ["_pages"]
 permalink: /:title/
-
 
 
 # Authors
@@ -64,7 +62,7 @@ kramdown:
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "enabled"
 adsense-data-ad-client: "ca-pub-1722804840732560"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-slot: "7438894989"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
