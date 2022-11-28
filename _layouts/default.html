@@ -27,11 +27,11 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JD1B356GRY"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-JD1B356GRY');
+    gtag('config', 'G-JD1B356GRY');
 </script>
 {% endif %}
 
@@ -58,7 +58,9 @@
         <ul>
             <h3>Navigation</h3>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><span class="badge badge-primary"></span><a href="{{ site.baseurl }}/categories">Categories</a></span>
+            <li><a href="{{ site.baseurl }}/tags">Tags</a></li>
+            <li><a href="{{ site.baseurl }}/categories">Categories</a><span class="badge badge-secondary">New Articles
+                    !</span></span>
             </li>
             <li><a href="{{ site.baseurl }}/about">About <span class="badge badge-primary">New !</span></a></li>
             <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
@@ -85,13 +87,13 @@
 
 
             <!-- Site Tag
-    ================================================== 
-    {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
-    {% endif %}
--->
+    ==================================================  -->
+            {% if page.url == '/' %}
+            <p class="sitetag">
+                {{ site.description }}
+            </p>
+            {% endif %}
+
             <!-- Content
     ================================================== -->
             <div class="main-content">
