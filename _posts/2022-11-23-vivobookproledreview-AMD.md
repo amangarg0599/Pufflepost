@@ -2,7 +2,7 @@
 layout: post
 title:  "Asus Vivobook Pro Oled 14 M3400 review"
 author: Aman
-categories: [Review]
+categories: [News]
 tags: [review,vivobook,laptop,asus]
 image: https://dlcdnwebimgs.asus.com/files/media/e8833b25-ac84-41f7-bf9f-2d81a2a1f9fb/images/colors_1.jpg
 toc: true
