@@ -2,7 +2,7 @@
 layout: post
 title:  "Meta Data Breach"
 author: Aman
-categories:[News]
+categories: [News]
 image: assets/images/4/Meta cover.png
 comments: true
 rating: 4.5
