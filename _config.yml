@@ -37,6 +37,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-archives
     
 # Archives
 jekyll-archives:
