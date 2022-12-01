@@ -31,7 +31,7 @@ Edit `_config.yml` options. If your site is in root: `baseurl: ''`. Also, change
 Again, from your terminal:
 
 ```cmd
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --watch  --incremental
 ```
 
 Cmd
