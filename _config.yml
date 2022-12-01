@@ -11,8 +11,6 @@ disqus: 'pufflepost'
 email: 'pufflepost@gmail.com'
 include: ["_pages"]
 permalink: /:title/
-
-
 # Authors
 authors:
   Aman:

@@ -7,32 +7,31 @@
 
     <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
     <!--Adsense code by google-->
-    <script data-ad-client="ca-pub-1722804840732560" async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-1722804840732560" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!--Code End only remove above-->
     <title>{{ page.title }} | {{site.name}}</title>
 
     {% seo %}
 
     <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
-
     <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
-
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 </head>
 
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) + Google adsense script -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JD1B356GRY"></script>
-<script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1722804840732560"
+    crossorigin="anonymous"></script>
+<!-- <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-JD1B356GRY');
-</script>
+</script> -->
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -44,6 +43,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
             integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </noscript>
+
 
     <!-- Begin Sidebar Navigation
 ================================================== -->
@@ -59,15 +59,15 @@
             <h3>Navigation</h3>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="{{ site.baseurl }}/tags">Tags</a></li>
-            <li><a href="{{ site.baseurl }}/categories">Categories</a><span class="badge badge-secondary">New Articles
-                    !</span></span>
-            </li>
+            <li><a href="{{ site.baseurl }}/categories">Categories</a><span class="badge badge-secondary">New Articles !</span></span></li>
             <li><a href="{{ site.baseurl }}/about">About <span class="badge badge-primary">New !</span></a></li>
             <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-
         </ul>
     </nav>
 
+    
+    <!-- Searchbar left navigation
+================================================== -->
     {% include search-lunr.html %}
 
 
@@ -84,7 +84,6 @@
             <a class="navbar-brand" href="{{ site.baseurl }}/">
                 <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
             </a>
-
 
             <!-- Site Tag
     ==================================================  -->
@@ -128,11 +127,11 @@
                     <div class="col-md-6 col-sm-12 text-center text-lg-left">
                         Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
                     </div>
-                    <!--
+                    
             <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+                <a>Pufflepost Blog</a> by Aman Garg
             </div>
-            ================================================== -->
+     
                 </div>
             </div>
         </footer>
@@ -143,9 +142,8 @@
 
     <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
-
     <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
     {% if site.lazyimages == "enabled" %}
