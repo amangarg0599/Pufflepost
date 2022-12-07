@@ -64,7 +64,7 @@ adsense-data-ad-client: "ca-pub-1722804840732560"
 adsense-data-ad-slot: "7438894989"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
+lazyimages: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
