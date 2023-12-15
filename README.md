@@ -1,20 +1,11 @@
-# Memoirs Jekyll Theme
+# Pufflepost Jekyll Site
 
-[Live Demo](https://wowthemesnet.github.io/jekyll-theme-memoirs/) | [Docs & Download](https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
+#### How to use
 
-#### How to use “Memoirs” theme
-
-- [Download](https://github.com/wowthemesnet/jekyll-theme-memoirs/archive/master.zip) or `git clone https://github.com/wowthemesnet/jekyll-theme-memoirs.git`
-
-From the rood of your downloaded/cloned folder, open your terminal and install:
 
 ```cmd
 gem install bundler
 ```
-
-Cmd
-
-Copy
 
 Then:
 
@@ -22,9 +13,6 @@ Then:
 bundle install
 ```
 
-Cmd
-
-Copy
 
 Edit `_config.yml` options. If your site is in root: `baseurl: ''`. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
 
@@ -99,7 +87,6 @@ Markdown
 
 Copy
 
-[Rating Post Demo](https://wowthemesnet.github.io/jekyll-theme-memoirs/review-oscar/)
 
 ##### Adsense
 
