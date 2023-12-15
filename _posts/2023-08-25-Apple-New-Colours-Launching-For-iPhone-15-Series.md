@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Apple's iPhone 15 Series Launch to Introduce Stylish Color Upgrades"
+title: "Apple's iPhone 15 Series Launch to Introduce Stylish Color Upgrades"
 author: Aman
 categories: [News,Apple,iPhone]
 image: assets/images/iPhone15pro.jpg
