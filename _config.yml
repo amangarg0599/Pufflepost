@@ -2,8 +2,8 @@
 name: 'Pufflepost'
 title: "Pufflepost"
 description: "A modern blog!" # used by search engines
-logo: 'assets/images/Pufflepost_black_logo.pngPufflepost_black_logo.png'
-favicon: 'assets/images/favicon.png'
+logo: 'assets/images/Pufflepost_Logo_2023.svg'
+favicon: 'assets/images/favicon.svg'
 baseurl: ""
 google_analytics: G-JD1B356GRY
 url: "https://pufflepost.vercel.app/"
