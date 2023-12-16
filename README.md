@@ -1,46 +1,43 @@
-# Pufflepost Jekyll Site
+#  Pufflepost Jekyll Site 🐧📝
 
-#### How to use
+## How to Use
 
-
-```cmd
+```
+bashCopy code
 gem install bundler
 ```
 
 Then:
 
-```cmd
+```
+bashCopy code
 bundle install
 ```
 
-
-Edit `_config.yml` options. If your site is in root: `baseurl: ''`. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
+Edit `_config.yml` options. If your site is in the root: `baseurl: ''`. Also, change your Google Analytics code, Disqus username, authors, Mailchimp list, etc.
 
 Again, from your terminal:
 
-```cmd
-bundle exec jekyll serve --watch  --incremental
+```
+bashCopy code
+bundle exec jekyll serve --watch --incremental
 ```
 
-Cmd
-
-Copy
-
-You should be able to see your Jekyll project now, if you didn’t change the folder name you should see it live at `http://127.0.0.1:4000/jekyll-theme-memoirs`.
+You should be able to see your Jekyll project now. If you didn’t change the folder name, you should see it live at http://127.0.0.1:4000/
 
 Start populating your blog by adding your `.md` files in `_posts`. Memoirs already has a few examples.
 
-**YAML front matter options**:
+### *YAML Front Matter Options:*
 
-- post image - `image: assets/images/mypic.jpg`
-- external post image - `image: "https://externalwebsite.com/image4.jpg"`
-- disable page comments - `comments:false`
-- meta description (optional) - `description: "this is my meta description"`
+- Post image - `image: assets/images/mypic.jpg`
+- External post image - `image: "https://externalwebsite.com/image4.jpg"`
+- Disable page comments - `comments: false`
+- Meta description (optional) - `description: "this is my meta description"`
 
-##### YAML Post Example:
+#### YAML Post Example:
 
-```mardown
----
+```
+markdownCopy code---
 layout: post
 title:  "We all wait for summer"
 author: john
@@ -51,28 +48,20 @@ description: "Something about this post here"
 ---
 ```
 
-Mardown
+#### YAML Page Example:
 
-Copy
-
-##### YAML Page Example
-
-```markdown
----
+```
+markdownCopy code---
 layout: page
 title: About Memoirs
 comments: false
 ---
 ```
 
-Markdown
+#### Rating
 
-Copy
-
-##### Rating
-
-```markdown
----
+```
+markdownCopy code---
 layout: post
 title:  "We all wait for summer"
 author: john
@@ -83,45 +72,32 @@ rating: 4.5
 ---
 ```
 
-Markdown
-
-Copy
-
-
-##### Adsense
+#### Adsense
 
 Enable this option by editing `_config.yml`.
 
-```markdown
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+```
+markdownCopy code# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
 adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 ```
 
-Markdown
-
-Copy
-
-##### Lazy Load Images
+#### Lazy Load Images
 
 Enable this option by editing `_config.yml`.
 
-```markdown
-# Lazy Images ("enabled" or "disabled")
+```
+markdownCopy code# Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
 ```
 
-Markdown
-
-Copy
-
-##### Table of Contents
+#### Table of Contents
 
 Add `toc:true` on your post YAML.
 
-```markdown
----
+```
+markdownCopy code---
 layout: post
 title:  "Education must also train one for quick, resolute and effective thinking."
 author: john
@@ -132,12 +108,8 @@ toc: true
 ---
 ```
 
-Markdown
-
-Copy
-
 `beforetoc` adds a paragraph before the TOC is displayed.
 
-##### Editing stylesheet
+### Editing Stylesheet
 
-You’ll only work with a single file to edit/add theme style: `assets/css/theme.scss`.
+You’ll only work with a single file to edit/add theme style: `assets/css/theme.scss`. 🎨✨
