@@ -1,20 +1,16 @@
 # Site
 name: 'Pufflepost'
 title: "Pufflepost"
-description: "Pufflepost is a Minimal blog updated constantly with the best content" # used by search engines
-logo: 'assets/images/puff.png'
-favicon: 'assets/images/favicon.ico'
+description: "A modern blog!" # used by search engines
+logo: 'assets/images/Pufflepost_Logo_2023.svg'
+favicon: 'assets/images/favicon.svg'
 baseurl: ""
-google_analytics: UA-119927478-1
-url: "https://www.pufflepost.com"
-url: "https://pufflepost.com"
+google_analytics: G-JD1B356GRY
+url: "https://pufflepost.vercel.app/"
 disqus: 'pufflepost'
 email: 'pufflepost@gmail.com'
 include: ["_pages"]
 permalink: /:title/
-
-
-
 # Authors
 authors:
   Aman:
@@ -22,14 +18,12 @@ authors:
     display_name: Aman Garg
     avatar: assets/images/avatar.webp
     email: amangarg599@gmail.com
-    web: https://instagram/amangarg._/
-    twitter: https://twitter.com/amangarg0599/
+    web: https://pufflepost.vercel.app/
+    twitter: https://twitter.com/pufflepost/
     linkedin: https://linkedin.com/in/amangarg0599
-    facebook: http://www.facebook.com/amangarg0599/
+    facebook: http://www.facebook.com/pufflepost/
+    Leetcode: https://www.leetcode.com/amangarg0599
     description: "Author of this Blog, Definitely not a cyborg."
- 
-
-
 # Plugins
 plugins:
   - jekyll-paginate
@@ -38,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-archives
     
 # Archives
 jekyll-archives:
@@ -56,17 +51,15 @@ paginate_path: /page:num/
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
-      disable : false
-
-
+      disable : true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
+adsense: "enabled"
 adsense-data-ad-client: "ca-pub-1722804840732560"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-slot: "7438894989"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
+lazyimages: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
